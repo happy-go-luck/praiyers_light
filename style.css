@@ -1,0 +1,331 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "MS Pゴシック",sans-serif;
+}
+
+header {
+  position: relative;
+}
+
+header .h-top {
+  background-color: #010022;
+}
+
+header .h-top img {
+  padding: 2% 0;
+  width: 15%;
+  margin: 0 auto;
+  display: block;
+}
+
+header .h-main {
+  width: 100%;
+}
+
+header .top-logo {
+  width: 15%;
+  position: absolute;
+  left: 50%;
+  bottom: -30%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main {
+  margin: 200px 0 0 0;
+}
+
+main .m-top {
+  width: 85%;
+  margin: 0 auto;
+  display: block;
+}
+
+main .m-top h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+main .m-top .contents-img {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  margin: 50px auto;
+}
+
+main .m-top h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: normal;
+}
+
+main .m-top .box1, main .m-top .box2 {
+  background-color: #D3EDFB;
+  border-radius: 30px;
+  padding: 2%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+main .m-top .box1 {
+  width: 65%;
+  margin: 0 auto;
+  display: block;
+  margin: 50px auto;
+}
+
+main .m-top .arrow {
+  width: 5%;
+  margin: 0 auto;
+  display: block;
+  margin: 0 auto 30px auto;
+}
+
+main .m-top .box2 {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+main .m-top .news-img {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px auto;
+  position: relative;
+}
+
+main .m-top .news-img img {
+  width: 30%;
+  margin: 0 auto;
+  display: block;
+}
+
+main .m-top .news-img p {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  width: 35%;
+  font-size: 1rem;
+  position: absolute;
+  right: -5px;
+  bottom: 2%;
+}
+
+main .m-top .quarklear h3 {
+  text-align: left;
+  font-weight: normal;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+main .m-top .quarklear .quarklear-box img {
+  width: 100%;
+}
+
+main .border-container {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 100px auto 50px auto;
+}
+
+main .border-container p {
+  font-size: 1.2rem;
+  margin: 0 5px 0 0;
+}
+
+main .border-container .border {
+  width: 90%;
+  display: block;
+  border-radius: 30px;
+  border: 4px solid #2D59E2;
+}
+
+main section {
+  margin: 50px auto;
+  width: 100%;
+  background-color: #EFEFEF;
+}
+
+main section .section-container {
+  padding: 2% 1%;
+}
+
+main section h3 {
+  margin: 50px 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+main section img {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+main section p {
+  font-size: 1.2rem;
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  margin: 30px auto;
+}
+
+main section .results {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main section .results .result p {
+  font-size: 1rem;
+  margin: 10px auto;
+}
+
+main section .results .result img {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+main .exsample {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+main .exsample p {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  font-size: 1.2rem;
+}
+
+main .exsample a {
+  font-size: 0.8rem;
+}
+
+main .exsample img {
+  width: 100%;
+}
+
+main .quarklear-logo {
+  width: 15%;
+  margin: 0 auto;
+  display: block;
+  margin: 100px auto;
+}
+
+main .contact {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  margin: 0 auto 200px auto;
+}
+
+main .contact p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+main .contact .top {
+  padding: 10px;
+  border-radius: 150px;
+  border: 3px solid #2D59E2;
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+  margin: 50px auto;
+}
+
+main .contact .top h1 {
+  font-size: 60px;
+  font-weight: normal;
+  text-align: center;
+}
+
+main .contact .bottom {
+  background-color: #2D59E2;
+  color: whitesmoke;
+  padding: 5%;
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+
+main .contact .bottom p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+main .contact .form {
+  font-size: 1.5rem;
+  text-align: right;
+  margin: 20px 0;
+}
+
+footer {
+  padding: 2%;
+  background-color: #EFEFEF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .f-img {
+  width: 50%;
+}
+
+footer .f-img img {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  margin: 0 20px 0 auto;
+}
+
+footer .contents {
+  width: 50%;
+}
+
+footer .contents p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */

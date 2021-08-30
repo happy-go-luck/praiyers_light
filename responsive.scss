@@ -1,0 +1,183 @@
+@media screen and (max-width:600px) {
+
+  // body {
+  //   background-color: rgb(228, 229, 226);
+  // }
+
+  header {
+    .h-top {
+      img {
+        width: 30%;
+      }
+    }
+  }
+
+  main {
+    margin: 70px 0 0 0;
+
+    .m-top {
+      width: 100%;
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      .contents-img {
+        width: 100%;
+        margin: 30px auto;
+      }
+
+      h3 {
+        font-size: 1rem;
+      }
+
+      .box1,.box2 {
+        width: 90%;
+        padding: 2%;
+        font-size: 0.8rem;
+        margin: 10px auto;
+      }
+
+      .arrow {
+        width: 10%;
+        margin: 0 auto 10px auto;
+      }
+     
+
+      .news-img {
+        img {
+          width: 50%;
+        }
+        p {
+          position: relative;
+          font-size: 0.8rem;
+          width: 100%;
+          margin: 0 0 0 0;
+        }
+      }
+
+      .quarklear {
+        h3 {
+          font-size: 1rem;
+          margin: 10px 0 2px 0;
+        }
+      }
+    }
+
+    .border-container {
+      width: 95%;
+      margin: 50px auto 30px auto;
+      p {
+        width: 15%;
+        font-size: 0.8rem;
+      }
+    }
+
+    section {
+      margin: 30px auto;
+
+      // .section-container {
+      //   padding: 1%;
+      // }
+
+      h3 {
+        margin: 10px 0;
+        font-size: 1rem;
+      }
+
+      img {
+        width: 98%;
+      }
+
+      p {
+        width: 90%;
+        font-size: 1rem;
+        margin: 10px auto;
+      }
+
+      .results {
+        flex-direction: column;
+
+        .result {
+          img {
+            width: 50%;
+          }
+          p {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+
+    .exsample {
+      width: 95%;
+      p {
+        width: 90%;
+        font-size: 1rem;
+      }
+
+    }
+
+    .quarklear-logo {
+      width: 30%;
+      margin: 30px auto;
+    }
+
+    .contact {
+      width: 90%;
+
+      p {
+        font-size: 1rem;
+      }
+      .top {
+        width: 90%;
+        padding: 5px;
+        margin: 10px auto;
+
+        h1 {
+          font-size: 1.8rem;
+        }
+      }
+
+      .bottom {
+        width: 80%;
+
+        p {
+          font-size: 0.8rem;
+        }
+      }
+
+      .form {
+        font-size: 1rem;
+      }
+
+
+    }
+
+
+    
+  }
+
+  footer {
+    flex-direction: column;
+
+    .f-img {
+      width: 100%;
+
+      img {
+        width: 60%;
+        margin: 0 auto;
+      }
+
+    }
+
+    .contents {
+      width: 100%;
+
+      p {
+        font-size: 0.8rem;
+        text-align: center;
+      }
+    }
+  }
+  
+}

@@ -1,0 +1,134 @@
+@media screen and (max-width: 600px) {
+  header .h-top img {
+    width: 30%;
+  }
+  main {
+    margin: 70px 0 0 0;
+  }
+  main .m-top {
+    width: 100%;
+  }
+  main .m-top h2 {
+    font-size: 1.5rem;
+  }
+  main .m-top .contents-img {
+    width: 100%;
+    margin: 30px auto;
+  }
+  main .m-top h3 {
+    font-size: 1rem;
+  }
+  main .m-top .box1, main .m-top .box2 {
+    width: 90%;
+    padding: 2%;
+    font-size: 0.8rem;
+    margin: 10px auto;
+  }
+  main .m-top .arrow {
+    width: 10%;
+    margin: 0 auto 10px auto;
+  }
+  main .m-top .news-img img {
+    width: 50%;
+  }
+  main .m-top .news-img p {
+    position: relative;
+    font-size: 0.8rem;
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+  main .m-top .quarklear h3 {
+    font-size: 1rem;
+    margin: 10px 0 2px 0;
+  }
+  main .border-container {
+    width: 95%;
+    margin: 50px auto 30px auto;
+  }
+  main .border-container p {
+    width: 15%;
+    font-size: 0.8rem;
+  }
+  main section {
+    margin: 30px auto;
+  }
+  main section h3 {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  main section img {
+    width: 98%;
+  }
+  main section p {
+    width: 90%;
+    font-size: 1rem;
+    margin: 10px auto;
+  }
+  main section .results {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main section .results .result img {
+    width: 50%;
+  }
+  main section .results .result p {
+    font-size: 0.8rem;
+  }
+  main .exsample {
+    width: 95%;
+  }
+  main .exsample p {
+    width: 90%;
+    font-size: 1rem;
+  }
+  main .quarklear-logo {
+    width: 30%;
+    margin: 30px auto;
+  }
+  main .contact {
+    width: 90%;
+  }
+  main .contact p {
+    font-size: 1rem;
+  }
+  main .contact .top {
+    width: 90%;
+    padding: 5px;
+    margin: 10px auto;
+  }
+  main .contact .top h1 {
+    font-size: 1.8rem;
+  }
+  main .contact .bottom {
+    width: 80%;
+  }
+  main .contact .bottom p {
+    font-size: 0.8rem;
+  }
+  main .contact .form {
+    font-size: 1rem;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .f-img {
+    width: 100%;
+  }
+  footer .f-img img {
+    width: 60%;
+    margin: 0 auto;
+  }
+  footer .contents {
+    width: 100%;
+  }
+  footer .contents p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
