@@ -44,14 +44,21 @@
      
 
       .news-img {
+        flex-direction: column;
         img {
           width: 50%;
         }
-        p {
-          position: relative;
-          font-size: 0.8rem;
-          width: 100%;
-          margin: 0 0 0 0;
+
+        .n-text {
+          margin: 10px 0 0 0;
+
+          p {
+            width: 90%;
+            margin: 10px auto 0 auto;
+            // text-align: center;
+            // position: relative;
+            font-size: 0.8rem;
+          }
         }
       }
 
@@ -75,10 +82,6 @@
     section {
       margin: 30px auto;
 
-      // .section-container {
-      //   padding: 1%;
-      // }
-
       h3 {
         margin: 10px 0;
         font-size: 1rem;
@@ -90,7 +93,7 @@
 
       p {
         width: 90%;
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin: 10px auto;
       }
 
@@ -111,8 +114,14 @@
     .exsample {
       width: 95%;
       p {
-        width: 90%;
+        width: 100%;
         font-size: 1rem;
+      }
+
+      ul {
+        li {
+          font-size: 0.8rem;
+        }
       }
 
     }

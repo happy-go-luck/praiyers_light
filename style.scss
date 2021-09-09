@@ -100,22 +100,18 @@ main {
 
 
     .news-img {
-      @include marginCenter(90%);
+      @include marginCenter(80%);
       @include flexCenter();
       margin: 30px auto;
       position: relative;
 
         img {
-          @include marginCenter(30%);
+          @include marginCenter(40%);
         }
   
         p {
-          @include marginCenter();
-          width: 35%;
+          @include marginCenter(90%);
           font-size: 1rem;
-          position: absolute;
-          right: -5px;
-          bottom: 2%;
         }
     }
 
@@ -201,17 +197,26 @@ main {
   .exsample {
     @include marginCenter();
 
-    p {
-      @include marginCenter();
-      font-size: $fontMain;
-    }
-
-    a {
-      font-size: 0.8rem;
-    }
     img {
       width: 100%;
     }
+
+    p {
+      font-size: $fontMain;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin: 0 0 20px 0;
+        span {
+          display: block;
+        }
+      }
+    }
+    
   }
 
   
@@ -239,7 +244,7 @@ main {
       margin: 50px auto;
       
       h1 {
-        font-size: 60px;
+        font-size: 50px;
         font-weight: normal;
         text-align: center;
       }
@@ -274,12 +279,12 @@ footer {
   padding: 2%;
   background-color: $gray;
   @include flexCenter();
+  
   .f-img {
-    width: 50%;
-
+    @include marginCenter(50%);
+    
     img {
       @include marginCenter(50%);
-      margin: 0 20px 0 auto;
     }
   }
   .contents {
