@@ -122,6 +122,13 @@ main .m-top .news-img p {
   font-size: 1rem;
 }
 
+main .m-top .quarklear {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  margin: 50px auto 0 auto;
+}
+
 main .m-top .quarklear h3 {
   text-align: left;
   font-weight: normal;
@@ -129,8 +136,22 @@ main .m-top .quarklear h3 {
   width: 100%;
 }
 
+main .m-top .quarklear .quarklear-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 main .m-top .quarklear .quarklear-box img {
-  width: 100%;
+  width: 30%;
 }
 
 main .border-container {
@@ -178,7 +199,7 @@ main section h3 {
 }
 
 main section img {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   display: block;
 }
@@ -220,12 +241,41 @@ main .exsample {
   display: block;
 }
 
+main .exsample .img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+main .exsample .img-box .img img {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+main .exsample .img-box .img p {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  font-size: 1rem;
+}
+
 main .exsample img {
   width: 100%;
 }
 
 main .exsample p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  margin: 20px 0 0 0;
 }
 
 main .exsample ul {
@@ -234,7 +284,7 @@ main .exsample ul {
 }
 
 main .exsample ul li {
-  margin: 0 0 20px 0;
+  margin: 10px 0 0 0;
 }
 
 main .exsample ul li span {

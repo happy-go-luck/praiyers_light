@@ -28,6 +28,7 @@ $fontC:2rem;
 $fontD:1.5rem;
 $fontE:1.2rem;
 $fontMain:1.2rem;
+$fontMin:1rem;
 
 
 header {
@@ -111,11 +112,13 @@ main {
   
         p {
           @include marginCenter(90%);
-          font-size: 1rem;
+          font-size: $fontMin;
         }
     }
 
     .quarklear {
+      @include marginCenter(90%);
+      margin: 50px auto 0 auto;
       h3 {
         text-align: left;
         font-weight: normal;
@@ -124,8 +127,10 @@ main {
       }
 
       .quarklear-box {
+        @include flexCenter();
+        justify-content: space-around;
         img {
-          width: 100%;
+          width: 30%;
         }
       }
     }
@@ -168,7 +173,7 @@ main {
     }
 
     img {
-      @include marginCenter(90%);
+      @include marginCenter(100%);
     }
 
     p {
@@ -182,7 +187,7 @@ main {
 
       .result {
         p {
-          font-size: 1rem;
+          font-size: $fontMin;
           margin: 10px auto;
         }
 
@@ -197,12 +202,30 @@ main {
   .exsample {
     @include marginCenter();
 
+    .img-box {
+      @include flexCenter();
+      align-items: flex-start;
+
+      .img {
+
+        img {
+          @include marginCenter(90%);
+        }
+
+        & p {
+          @include marginCenter(90%);
+          font-size: $fontMin;
+        }
+      }
+    }
+
     img {
       width: 100%;
     }
 
     p {
-      font-size: $fontMain;
+      font-size: $fontD;
+      margin: 20px 0 0 0;
     }
 
     ul {
@@ -210,7 +233,7 @@ main {
       padding: 0;
 
       li {
-        margin: 0 0 20px 0;
+        margin: 10px 0 0 0;
         span {
           display: block;
         }
@@ -232,7 +255,7 @@ main {
 
     p {
       text-align: center;
-      font-size: 1.5rem;
+      font-size: $fontD;
       margin: 0;
     }
 
@@ -257,13 +280,13 @@ main {
       @include marginCenter(60%);
 
       p {
-        font-size: 2rem;
+        font-size: $fontC;
         text-align: center;
       }
     }
 
     .form {
-      font-size: 1.5rem;
+      font-size: $fontD;
       text-align: right;
       margin: 20px 0;
     }
