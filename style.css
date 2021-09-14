@@ -151,7 +151,7 @@ main .m-top .quarklear .quarklear-box {
 }
 
 main .m-top .quarklear .quarklear-box img {
-  width: 30%;
+  width: 40%;
 }
 
 main .border-container {
@@ -251,9 +251,13 @@ main .exsample .img-box {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+main .exsample .img-box .img {
+  width: 30%;
 }
 
 main .exsample .img-box .img img {
@@ -266,7 +270,8 @@ main .exsample .img-box .img p {
   width: 90%;
   margin: 0 auto;
   display: block;
-  font-size: 1rem;
+  font-size: 0.7rem;
+  margin: 10px auto 0 auto;
 }
 
 main .exsample img {
@@ -289,6 +294,7 @@ main .exsample ul li {
 
 main .exsample ul li span {
   display: block;
+  font-size: 1.2rem;
 }
 
 main .quarklear-logo {
@@ -323,20 +329,23 @@ main .contact .top {
 
 main .contact .top h1 {
   font-size: 50px;
-  font-weight: normal;
   text-align: center;
 }
 
 main .contact .bottom {
   background-color: #2D59E2;
-  color: whitesmoke;
   padding: 5%;
   width: 60%;
   margin: 0 auto;
   display: block;
 }
 
-main .contact .bottom p {
+main .contact .bottom a {
+  text-decoration: none;
+  color: white;
+}
+
+main .contact .bottom a p {
   font-size: 2rem;
   text-align: center;
 }
@@ -345,6 +354,61 @@ main .contact .form {
   font-size: 1.5rem;
   text-align: right;
   margin: 20px 0;
+}
+
+main .contact .back-home {
+  text-decoration: none;
+  display: block;
+  color: white;
+  cursor: pointer;
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+  margin: 100px auto 0 auto;
+  border: none;
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(115deg, #231557 0%, #44107a 15%, #ff1361 70%, #fff800 100%);
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .contact .back-home:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+main .contact .back-home .btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .contact .back-home .btn i {
+  font-size: 1.5rem;
+}
+
+main .contact .back-home .btn p {
+  font-size: 1.5rem;
 }
 
 footer {
