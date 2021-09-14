@@ -333,43 +333,19 @@ main .contact .top h1 {
 }
 
 main .contact .bottom {
-  background-color: #2D59E2;
-  padding: 5%;
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(115deg, #231557 0%, #44107a 15%, #ff1361 70%, #fff800 100%);
+  padding: 7% 5%;
   width: 60%;
   margin: 0 auto;
   display: block;
+  position: relative;
 }
 
 main .contact .bottom a {
   text-decoration: none;
   color: white;
-}
-
-main .contact .bottom a p {
-  font-size: 2rem;
-  text-align: center;
-}
-
-main .contact .form {
-  font-size: 1.5rem;
-  text-align: right;
-  margin: 20px 0;
-}
-
-main .contact .back-home {
-  text-decoration: none;
-  display: block;
-  color: white;
-  cursor: pointer;
-  width: 40%;
-  margin: 0 auto;
-  display: block;
-  margin: 100px auto 0 auto;
-  border: none;
-  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-  background-image: linear-gradient(115deg, #231557 0%, #44107a 15%, #ff1361 70%, #fff800 100%);
-  height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -379,36 +355,35 @@ main .contact .back-home {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
-main .contact .back-home:hover {
+main .contact .bottom a p, main .contact .bottom a i {
+  font-size: 2rem;
+  text-align: center;
+}
+
+main .contact .bottom a i {
+  margin: 0 10px 0 0;
+  font-size: 3rem;
+}
+
+main .contact .bottom:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
   -webkit-transform: translateY(2px);
           transform: translateY(2px);
 }
 
-main .contact .back-home .btn {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-main .contact .back-home .btn i {
+main .contact .form {
   font-size: 1.5rem;
-}
-
-main .contact .back-home .btn p {
-  font-size: 1.5rem;
+  text-align: right;
+  margin: 20px 0;
 }
 
 footer {
@@ -431,10 +406,18 @@ footer .f-img {
   display: block;
 }
 
-footer .f-img img {
+footer .f-img img, footer .f-img p {
   width: 50%;
   margin: 0 auto;
   display: block;
+}
+
+footer .f-img p {
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+  margin: 0 auto 10px auto;
+  font-size: 0.8rem;
 }
 
 footer .contents {
