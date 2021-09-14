@@ -118,8 +118,15 @@
   main .contact .bottom {
     width: 80%;
   }
-  main .contact .bottom p {
-    font-size: 0.8rem;
+  main .contact .bottom a {
+    width: 100%;
+  }
+  main .contact .bottom a p {
+    font-size: 1rem;
+  }
+  main .contact .bottom a i {
+    font-size: 1.8rem;
+    margin: 0;
   }
   main .contact .form {
     font-size: 1rem;
@@ -136,6 +143,9 @@
   footer .f-img img {
     width: 60%;
     margin: 0 auto;
+  }
+  footer .f-img p {
+    width: 60%;
   }
   footer .contents {
     width: 100%;

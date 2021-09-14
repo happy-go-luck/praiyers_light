@@ -158,9 +158,20 @@
       .bottom {
         width: 80%;
 
-        p {
-          font-size: 0.8rem;
+        a {
+          width: 100%;
+
+          p {
+            font-size: 1rem;
+          }
+
+          i {
+            font-size: 1.8rem;
+            margin: 0;
+          }
+
         }
+
       }
 
       .form {
@@ -183,6 +194,10 @@
       img {
         width: 60%;
         margin: 0 auto;
+      }
+
+      p {
+        width: 60%;
       }
 
     }
