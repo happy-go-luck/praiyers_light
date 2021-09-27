@@ -1,7 +1,7 @@
 @media screen and (max-width:600px) {
 
   // body {
-  //   background-color: rgb(228, 229, 226);
+  //   background-color: rgb(154, 196, 70);
   // }
 
   header {
@@ -55,8 +55,6 @@
           p {
             width: 90%;
             margin: 10px auto 0 auto;
-            // text-align: center;
-            // position: relative;
             font-size: 0.8rem;
           }
         }
@@ -71,10 +69,11 @@
     }
 
     .border-container {
+      flex-direction: column;
       width: 95%;
       margin: 50px auto 30px auto;
       p {
-        width: 15%;
+        width: 90%;
         font-size: 0.8rem;
       }
     }
@@ -117,6 +116,7 @@
       .img-box {
         .img {
           p {
+            
             font-size: 0.6rem;
           }
         }

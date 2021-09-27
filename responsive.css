@@ -50,11 +50,15 @@
     margin: 10px 0 2px 0;
   }
   main .border-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 95%;
     margin: 50px auto 30px auto;
   }
   main .border-container p {
-    width: 15%;
+    width: 90%;
     font-size: 0.8rem;
   }
   main section {
